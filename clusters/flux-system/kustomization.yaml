@@ -6,3 +6,4 @@ resources:
 - ../../apps/dockercoins/flux.yaml
 - ../../apps/blue/flux.yaml
 - ../../apps/kube-prometheus-stack/flux.yaml
+- ../../apps/myapp/flux.yaml

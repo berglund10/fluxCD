@@ -13,3 +13,5 @@ resources:
 replicas:
 - count: 5
   name: worker
+- count: 3
+  name: hasher

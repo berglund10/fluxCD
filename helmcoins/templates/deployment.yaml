@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "helmcoins.fullname" . }}
+  name: {{ include "helmcoins.fullname" . }}-{{ .Release.Name }}
   labels:
     {{- include "helmcoins.labels" . | nindent 4 }}
 spec:

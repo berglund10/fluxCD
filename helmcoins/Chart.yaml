@@ -1,6 +1,11 @@
 apiVersion: v2
 name: helmcoins
 description: A Helm chart for Kubernetes
+dependencies:
+  - name: redis
+    version: 22.0.7
+    repository: https://charts.bitnami.com/bitnami
+    condition: redis.enabled
 
 # A chart can be either an 'application' or a 'library' chart.
 #

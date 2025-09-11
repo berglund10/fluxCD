@@ -1,0 +1,6 @@
+image:
+  repository: dockercoins/hasher
+  tag: v0.1
+
+redis:
+  enabled: false
